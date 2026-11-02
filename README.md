@@ -118,6 +118,13 @@ Use the [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) bridge:
 }
 ```
 
+Or build the included `Dockerfile`, which runs the same bridge in a container:
+
+```
+docker build -t flowsimp-mcp .
+docker run -i --rm flowsimp-mcp
+```
+
 ## Example prompts
 
 - "Make a flowchart of our customer refund process and give me the Flowsimp link."
